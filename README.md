@@ -1,6 +1,6 @@
 ## Xgenious Task
 
-A simple and clean boilerplate to start a new PHARMACY POS with authentication, user, pos and more features. This boilerplate uses the following tools:
+A Sime Task given by Xgenious:
 
 -   [Laravel 11.x](https://github.com/laravel/laravel)
 
@@ -16,7 +16,7 @@ The following Sanctum features are implemented in this Vue PHARMACY POS:
 #### Clone the repository
 
 ```bash
-git clone https://github.com/Arafat7616/pharmacy-pos
+git clone https://github.com/masudranatapu/xgenious_task.git
 ```
 
 #### Copy .env.example file to .env and edit credentials also set app url
@@ -24,7 +24,7 @@ git clone https://github.com/Arafat7616/pharmacy-pos
 #### Install Via Composer
 
 ```bash
-composer install
+composer install or composer install --ignore-platform-reqs
 ```
 
 #### Generate Application Key
@@ -42,45 +42,37 @@ php artisan serve
 #### Migrate Database
 
 ```bash
-php artisan migrate
+php artisan migrate or php artisan migrate:fresh --seed
 ```
 
-#### Run Seeder
+#### Run Seeder if you ( run php artisan migrate:fresh --seed command you do not need run this command)
 
 ```bash
 php artisan db:seed
 ```
 
-#### Install Node Dependencies
-
-```bash
-npm install or yarn install
-
-npm run dev or yarn dev
-```
-
-#### Production
-
-```bash
-npm run build or yarn build
-```
+## Note: You also register a new user form register url.
 
 #### Login Dashboard
 
 ```bash
-Email : admin@gmail.com
+Email : user@gmail.com
 Password : password
 ```
 
-## License
+# Information for forget password email
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-The Vue framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-This repository is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```bash
+get set password mail change .env file
+
+MAIL_MAILER=smtp
+MAIL_HOST=sandbox.smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=yourusername
+MAIL_PASSWORD=yourpassword
+
+```
 
 ## Contributors
 
-We'd like to thank the following individuals for their contributions to this project:
-
--   [Arafat Hossin](https://github.com/Arafat7616) - Initiated This Project (Designed And Developed).
--   [Masud Rana Tapu](https://github.com/masudranatapu) - Designed And Developed.
+-   [Masud Rana Tapu](https://github.com/masudranatapu) - Developed By.
