@@ -33,11 +33,7 @@ composer install or composer install --ignore-platform-reqs
 php artisan key:generate
 ```
 
-#### Serve The Laravel Project
-
-```bash
-php artisan serve
-```
+#### set your mysql connect in .env file
 
 #### Migrate Database
 
@@ -71,6 +67,12 @@ MAIL_PORT=2525
 MAIL_USERNAME=yourusername
 MAIL_PASSWORD=yourpassword
 
+```
+
+#### Serve The Laravel Project
+
+```bash
+php artisan serve
 ```
 
 ## Contributors
